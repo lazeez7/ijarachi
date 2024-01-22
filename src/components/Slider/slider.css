@@ -1,0 +1,220 @@
+.slide {
+  width: 924px;
+  height: 600px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #fff2cb;
+  background-image: url(./2021_24\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 450px;
+  background-position: 450px 340px;
+}
+
+.slide_wrap {
+  max-width: 1200px;
+  padding: 0 55px;
+  padding-top: 30px;
+  gap: 20px;
+}
+
+.slide_text {
+  padding: 0px 50px;
+  padding-top: 40px;
+}
+
+.slide_text h1 {
+  color: #242424;
+  font-family: Onest;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 68px; /* 121.429% */
+  text-transform: uppercase;
+}
+
+.slide_text p {
+  color: #828282;
+  font-family: Onest;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+}
+
+.watch {
+  border: none;
+  background: none;
+  color: #242424;
+  font-family: Onest;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 100% */
+  text-transform: capitalize;
+  margin-top: 40px;
+}
+
+.slide_text svg {
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  padding: 8px 8px 8px 8px;
+  border-radius: 16px;
+  background: #ff671b;
+}
+
+.arenda-kv {
+  width: 480px;
+  height: 420px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #242424;
+  margin-bottom: 150px;
+}
+
+.slide_text {
+  margin-top: 30px;
+}
+
+.btn svg {
+  margin-top: 20px;
+}
+
+.kv {
+  width: 430px;
+  /* height: 360px; */
+  padding: 12px 24px;
+
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #242424;
+}
+
+.update {
+  width: 430px;
+  /* height: 164px; */
+  flex-shrink: 0;
+  border-radius: 24px;
+  padding: 32px 24px;
+
+  background: #ff671b;
+}
+
+.kv svg {
+  padding: 10px 15px;
+}
+
+.kv h2 {
+  max-width: 200px;
+  font-size: 40px;
+}
+
+.btn-svg {
+  display: flex;
+  gap: 5px;
+  margin-top: 70px;
+}
+
+.btn button {
+  border: none;
+  background: none;
+  color: #fff;
+  font-family: Onest;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 100% */
+  text-transform: capitalize;
+}
+
+.svg button {
+  border-radius: 50%;
+  border: none;
+  background: none;
+}
+
+.kv {
+  background-image: url(./png-transparent-condominium-apartment-house-building-renting-apartment-building-condominium-apartment\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 190px;
+  background-position: right 170px;
+  height: 360px;
+  flex-shrink: 0;
+}
+
+.kv h2 {
+  color: #fff;
+  font-family: Onest;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px; /* 120% */
+  text-transform: uppercase;
+}
+
+.kv p {
+  color: #fff;
+}
+
+.update h2 {
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px; /* 120% */
+  text-transform: uppercase;
+}
+
+.slide-two {
+  margin-bottom: 15px;
+}
+
+.slide_wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slide-two {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.update {
+  height: 134px;
+  flex-shrink: 0;
+}
+
+.up-btn {
+  justify-content: start;
+  gap: 15px;
+}
+
+.up-btn button {
+  color: #fff;
+  font-family: Onest;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 100% */
+  text-transform: capitalize;
+  border: none;
+  background: none;
+}
+
+.slide-btn {
+  margin-top: 70px;
+  justify-content: start;
+  gap: 15px;
+}
+
+.slide-btn button {
+  background: none;
+  border: none;
+  color: #242424;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 100% */
+  text-transform: capitalize;
+}

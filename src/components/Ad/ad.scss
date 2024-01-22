@@ -1,0 +1,148 @@
+.ad {
+  margin-top: 80px;
+  padding-bottom: 80px;
+
+  h2 {
+    color: #242424;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 133.333% */
+    text-transform: uppercase;
+  }
+
+  &__row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #828282;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: flex;
+    gap: 25px;
+  }
+
+  .link-active {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: flex;
+    gap: 5px;
+  }
+
+  &__btns {
+    width: 280px;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    .ad__btn-1 {
+      background: #ff671b;
+      color: #fff;
+    }
+
+    button {
+      background: #fafafa;
+      border: none;
+      padding: 20px;
+      display: flex;
+      align-items: flex-end;
+      gap: 8px;
+    }
+
+    .ad__btn-1 {
+      border-radius: 20px 20px 0px 0px;
+    }
+
+    .ad__btn-3 {
+      border-radius: 0px 0px 20px 20px;
+    }
+  }
+  .flex {
+    display: flex;
+    gap: 30px;
+    align-items: self-start;
+  }
+
+  .ad__input-1 {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 25px;
+
+    input {
+      display: flex;
+      gap: 10px;
+      width: 338px;
+      padding: 20px 24px;
+      margin: 20px 0px;
+      border-radius: 6px;
+      border: 1px solid #e1e1e1;
+      &:focus{
+        border: 2px solid #ff671b;
+      }
+    }
+
+    ::placeholder {
+      color: #e1e1e1;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 16px; /* 100% */
+      text-transform: capitalize;
+    }
+  }
+
+  .ad__inputs {
+    padding: 0px 40px;
+
+    textarea {
+      width: 760px;
+      height: 177px;
+      border-radius: 6px;
+      border: 1px solid #e1e1e1;
+      resize: vertical;
+      padding: 0px 20px;
+      outline: none;
+      padding-top: 20px;
+      &:focus{
+        border: 2px solid #ff671b;
+      }
+    }
+
+
+
+    ::placeholder {
+      color: #e1e1e1;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 16px; /* 100% */
+      text-transform: capitalize;
+    }
+  }
+
+  .input__btn button {
+    color: #fff;
+    margin-top: 10px;
+    width: 211px;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid #ff671b;
+    background: #ff671b;
+  }
+}

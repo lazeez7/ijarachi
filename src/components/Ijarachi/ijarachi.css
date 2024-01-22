@@ -1,8 +1,10 @@
+ /* @import url('https://fonts.googleapis.com/css2?family=Onest:wght@300&display=swap');
+
+
 .container {
   max-width: 1500px;
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
-  padding: 0 15px;
 }
 
 .header__wrapper {
@@ -10,7 +12,6 @@
   align-items: center;
   justify-content: space-between;
   gap: 40px;
-  margin-top: 20px;
 }
 
 .header__box {
@@ -18,14 +19,13 @@
   display: flex;
   /* gap: 30px; */
 
-  button {
+  /* button {
     display: flex;
     align-items: center;
     gap: 10px;
     padding: 15px 20px;
     border-radius: 15px;
 
-    
     border: 1px solid #ff671b;
     background: #ff671b;
 
@@ -33,11 +33,8 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 16px; /* 100% */
+    line-height: 16px;
     text-transform: capitalize;
-
-
-    
   }
 
   input {
@@ -46,20 +43,19 @@
     margin-left: 30px;
 
 
-border: 1.5px solid #BDBDBD;
-background: #FFF;
-
+    border: 1.5px solid #bdbdbd;
+    background: #fff;
   }
 
   .search {
     border-radius: 0px 12px 12px 0px;
-    background: #BDBDBD;
+    background: #bdbdbd;
     border: none;
   }
 }
 
-.logo p {
-  font-size: 16px;
+.logo {
+    font-family: 'Onest', sans-serif;
 }
 
 .header__menu {
@@ -73,7 +69,7 @@ background: #FFF;
     align-items: center;
   }
 
-  .box a{
+  .box a {
     text-decoration: none;
     color: #000;
     align-items: center;
@@ -81,7 +77,9 @@ background: #FFF;
 }
 
 .nav {
+    height: 98px;
   max-width: 1200px;
   margin: 0 auto;
 }
 
+  */
