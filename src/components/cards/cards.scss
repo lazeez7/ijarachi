@@ -1,0 +1,91 @@
+.cards {
+  &__wrapper {
+    display: flex;
+    gap: 30px;
+    margin-top: 60px;
+  }
+  &__catalog {
+    width: 300px;
+    h1 {
+      margin: 0;
+      color: #242424;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 48px; /* 133.333% */
+      text-transform: uppercase;
+    }
+    .mawin p {
+      color: #828282;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px; /* 125% */
+    }
+  }
+  &__box {
+    background: #f9f9f9;
+    border-radius: 12px;
+    padding: 20px;
+  }
+  &__icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    gap: 1px;
+  }
+  &__info {
+    .adres {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+
+      b {
+        color: orangered;
+      }
+    }
+    .kateg {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+
+      b {
+        color: orangered;
+      }
+    }
+    .cena {
+      display: flex;
+      gap: 40px;
+      align-items: center;
+
+      p {
+        color: orangered;
+      }
+    }
+  }
+  &__block {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+  }
+
+  &__btn {
+    margin-top: 80px;
+    margin: 0 auto;
+    padding-left: 240px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 1200px;
+    button {
+      width: 1200px;
+      padding: 18px 12px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 12px;
+      background: #ff671b;
+      gap: 10px;
+      color: #fff;
+      border: none;
+    }
+  }
+}
