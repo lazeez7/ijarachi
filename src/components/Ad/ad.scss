@@ -89,7 +89,7 @@
       margin: 20px 0px;
       border-radius: 6px;
       border: 1px solid #e1e1e1;
-      &:focus{
+      &:focus {
         border: 2px solid #ff671b;
       }
     }
@@ -116,12 +116,10 @@
       padding: 0px 20px;
       outline: none;
       padding-top: 20px;
-      &:focus{
+      &:focus {
         border: 2px solid #ff671b;
       }
     }
-
-
 
     ::placeholder {
       color: #e1e1e1;
@@ -145,4 +143,6 @@
     border: 1px solid #ff671b;
     background: #ff671b;
   }
+
+  
 }

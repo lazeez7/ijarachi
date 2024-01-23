@@ -1,12 +1,13 @@
 import React from "react";
 import "./image.scss";
+import Malibu from "./2021_24 1.png";
 
 const Image = () => {
   return (
     <>
       <div className="image">
         <div className="container">
-          <div className="anons flex">
+          <div className="anons ">
             <div className="image__btns ">
               <button className="image__btn-1">
                 <svg
@@ -112,10 +113,15 @@ const Image = () => {
                 Финансовый шаг
               </button>
             </div>
-            <div className="image__input">
-             <label htmlFor="">
-              <input type="file" />
-             </label>
+            <div className="image__input ">
+              <label >
+                <p>Пожалуйста, разместите изображения здесь</p>
+                <input type="file"/>
+              </label>
+              <div className="image__btnns">
+                <button className="btn__1">Предыдущий шаг</button>
+                <button className="btn__2">Следующий шаг</button>
+              </div>
             </div>
           </div>
         </div>
