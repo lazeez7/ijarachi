@@ -1,0 +1,72 @@
+.footer {
+  background: #242424;
+  padding: 100px 0;
+  &__infor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+  }
+  &__info {
+    p {
+      color: antiquewhite;
+    }
+    h5 {
+      color: #fff;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+    }
+  }
+  &__tel {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  &__sms {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  &__locac {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    p {
+      line-height: 20px;
+    }
+  }
+  &__icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  &__komp{
+    p{
+        line-height: 20px;
+    }
+  }
+  &__line{
+    width: 100%;
+    margin-top: 50px;
+    height: 2px;
+    background: linear-gradient(270deg, #242424 0%, #3D3D3D 48.02%, #242424 100%);
+  }
+  &__prava{
+    p{
+        color: #fff;
+    }
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    align-items: center;
+    .ijara{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        a{
+            color: #FF671B;
+            text-decoration: none;
+        }
+    }
+  }
+}
