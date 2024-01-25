@@ -23,51 +23,52 @@
       line-height: 20px; /* 125% */
     }
   }
-  &__box {
-    background: #f9f9f9;
-    border-radius: 12px;
-    padding: 20px;
+  // &__box {
+  //   background: #f9f9f9;
+  //   border-radius: 12px;
+  //   padding: 20px;
 
-    img {
-      max-width: 100%;
-      width: 100%;
-    }
-  }
-  &__icons {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
-    gap: 1px;
-  }
-  &__info {
-    .adres {
-      display: flex;
-      gap: 10px;
-      align-items: center;
+  //   img {
+  //     max-width: 100%;
+  //     width: 100%;
+  //   }
+  // }
+  // &__icons {
+  //   display: flex;
+  //   justify-content: space-between;
+  //   padding: 15px;
+  //   gap: 1px;
+  // }
+  // &__info {
+  //   .adres {
+  //     display: flex;
+  //     gap: 10px;
+  //     align-items: center;
 
-      b {
-        color: orangered;
-      }
-    }
-    .kateg {
-      display: flex;
-      gap: 10px;
-      align-items: center;
+  //     b {
+  //       color: orangered;
+  //     }
+  //   }
+  //   .kateg {
+  //     display: flex;
+  //     gap: 10px;
+  //     align-items: center;
 
-      b {
-        color: orangered;
-      }
-    }
-    .cena {
-      display: flex;
-      gap: 40px;
-      align-items: center;
+  //     b {
+  //       color: orangered;
+  //     }
+  //   }
+  //   .cena {
+  //     display: flex;
+  //     gap: 40px;
+  //     align-items: center;
 
-      p {
-        color: orangered;
-      }
-    }
-  }
+  //     p {
+  //       color: orangered;
+  //     }
+  //   }
+  // }
+  
   &__block {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -84,12 +85,14 @@
   &__btn {
     margin-top: 80px;
     margin: 0 auto;
-    padding-left: 240px;
     padding-top: 50px;
     padding-bottom: 50px;
     // max-width: 1200px;
+    display: flex;
+    justify-content: center;
     button {
       width: 100%;
+      
       padding: 18px 12px;
       justify-content: center;
       align-items: center;
@@ -100,4 +103,12 @@
       border: none;
     }
   }
+
+  // .adress__block{
+  //   max-width: 400px;
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: space-between;
+  //   gap: 20px;
+  // }
 }

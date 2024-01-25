@@ -7,8 +7,8 @@ const Image = () => {
     <>
       <div className="image">
         <div className="container">
-          <div className="anons ">
-            <div className="image__btns ">
+          <div className="anons">
+          <div className="image__btns ">
               <button className="image__btn-1">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -113,16 +113,16 @@ const Image = () => {
                 Финансовый шаг
               </button>
             </div>
-            <div className="image__input ">
-              <label >
-                <p>Пожалуйста, разместите изображения здесь</p>
-                <input type="file"/>
-              </label>
-              <div className="image__btnns">
-                <button className="btn__1">Предыдущий шаг</button>
-                <button className="btn__2">Следующий шаг</button>
-              </div>
+          <div className="image__input ">
+            <label>
+              <p>Пожалуйста, разместите изображения здесь</p>
+              <input type="file" />
+            </label>
+            <div className="image__btnns">
+              <button className="btn__1">Предыдущий шаг</button>
+              <button className="btn__2">Следующий шаг</button>
             </div>
+          </div>
           </div>
         </div>
       </div>

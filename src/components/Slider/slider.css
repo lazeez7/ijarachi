@@ -4,10 +4,27 @@
   flex-shrink: 0;
   border-radius: 24px;
   background: #fff2cb;
-  background-image: url(./2021_24\ 1.png);
+  
   background-repeat: no-repeat;
   background-size: 450px;
   background-position: 450px 340px;
+}
+
+.Maluba{
+  max-width: 500px;
+  width: 100%;
+  position: relative;
+  bottom: 70px;
+  left: 360px;
+  
+}
+
+.Home{
+  max-width: 200px;
+  width: 100%;
+  position: relative;
+  bottom: 145px;
+  left: 60px;
 }
 
 .slide_wrap {
@@ -20,6 +37,7 @@
 .slide_text {
   padding: 0px 50px;
   padding-top: 40px;
+  position: relative;
 }
 
 .slide_text h1 {
@@ -113,6 +131,7 @@
   display: flex;
   gap: 5px;
   margin-top: 70px;
+  position: relative;
 }
 
 .btn button {
@@ -134,7 +153,6 @@
 }
 
 .kv {
-  background-image: url(./png-transparent-condominium-apartment-house-building-renting-apartment-building-condominium-apartment\ 1.png);
   background-repeat: no-repeat;
   background-size: 190px;
   background-position: right 170px;

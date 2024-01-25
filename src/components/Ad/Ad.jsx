@@ -29,7 +29,7 @@ const Ad = () => {
             </a>
           </div>
           <h2>Анонсировать</h2>
-          <div className="anons flex">
+          <div className="anons">
           <div className="ad__btns ">
             <button className="ad__btn-1">
               <svg
