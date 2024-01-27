@@ -1,0 +1,26 @@
+.korzina{
+    &__wrapper{
+        // display: flex;
+        // align-items: center;
+    
+    }
+    &__cards{
+       margin-top: 50px;
+    }
+    &__card {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+
+    &__box {
+        p {
+            margin: 0;
+        }
+    }
+    &__glav{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}

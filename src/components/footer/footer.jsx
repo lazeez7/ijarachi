@@ -12,7 +12,7 @@ const Footer = () => {
     <>
     <div className="footer">
         <div className="container">
-            <div className="footer__infor">
+            <div className="footer_infor">
                 <div className="footer__info">
                     <h5>Свяжитесь с нами</h5>
                     <div className="footer__tel">
