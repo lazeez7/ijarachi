@@ -1,19 +1,37 @@
 .korzina{
-    &__wrapper{
-        // display: flex;
-        // align-items: center;
-    
+    h2{
+        color: #242424;
+        font-size: 33px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px; 
+        text-transform: uppercase;
+        margin: 0;
     }
     &__cards{
-       margin-top: 50px;
+    
+       display: flex;
+       flex-direction: column;
+       gap: 30px;
     }
     &__card {
         display: flex;
-        gap: 30px;
+        gap: 80px;
         align-items: center;
+        .maluba{
+            
+            padding: 12px 12px;
+            border-radius: 12px;
+            background: #F9F9F9;;
+
+        }
     }
 
     &__box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
         p {
             margin: 0;
         }
@@ -22,5 +40,77 @@
         display: flex;
         align-items: center;
         gap: 10px;
+         
+        }
+        &__zakaz{
+            border-radius: 12px;
+            border: 1px solid #E1E1E1;
+            width: 300px;
+            padding: 32px;
+            margin: 10px 0;
+            h3{
+                color: #242424;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 20px;               
+            }
+
+            p{
+                margin: 0;
+            }
+            .produkt{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-bottom: 8px;
+                border-bottom: 1px solid #F9F9F9;
+            }
+            .cena{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+
+        &__obwii{
+            display: flex;
+            gap: 80px;
+            align-items: start;
+            margin-top: 50px;
+        }
+        &__otpr{
+            border-radius: 12px;
+            border: 1px solid #E1E1E1;
+            width: 300px;
+            padding: 32px;       
+            input{
+                width: 260px;
+                padding: 20px 24px;
+                align-items: center;
+                border-radius: 6px;
+                border: 1px solid #E1E1E1;      
+            }
+            button{
+                width: 310px;
+                padding: 20px 40px;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;         
+                border-radius: 6px;
+                border: 1px solid #FF671B;
+                background: #FF671B;
+            }
+            h3{
+                color: #242424;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 20px; /* 100% */
+                text-transform: capitalize;                
+            }
+            .inp{
+                margin: 10px 0;
+            }
+        }
     }
-}
