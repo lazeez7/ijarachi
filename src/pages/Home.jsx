@@ -9,6 +9,8 @@ import Ad from '../components/Ad/Ad'
 import Image from '../components/Imagee/Image'
 import Footer from '../components/footer/footer'
 import Slider from '../components/Slider/Slider'
+import Financial from '../components/Financial step/Financial'
+import Zakaz from '../components/Zakaz/Zakaz'
 
 const Home = () => {
   return (
@@ -22,6 +24,8 @@ const Home = () => {
       <SimilarProduct />
       <Ad />
       <Image />
+      <Financial/>
+      <Zakaz/>
       <Footer />
     </>
   )

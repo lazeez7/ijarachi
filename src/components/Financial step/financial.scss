@@ -1,0 +1,96 @@
+.financial__btn {
+  width: 280px;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.financial__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.financial__btn-1 {
+  border-radius: 20px 20px 0px 0px;
+  background: #fafafa;
+  border: none;
+  padding: 20px;
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.financial__btn-2 {
+  border: none;
+  background: #fafafa;
+  padding: 20px;
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.financial__btn-3 {
+  border-radius: 0px 0px 20px 20px;
+  color: #fff;
+  background: #ff671b;
+  border: none;
+  padding: 20px;
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+.financial__input {
+  flex-shrink: 0;
+  align-items: center;
+  padding-bottom: 35px;
+  display: flex;
+  gap: 25px;
+}
+
+.financ__input {
+  margin-top: 60px;
+  width: 338px;
+  border-radius: 6px;
+  border: 1px solid #e1e1e1;
+  padding-bottom: 30px;
+
+  
+
+  &::placeholder {
+    position: relative;
+    top: 15px;
+    left: 20px;
+    color: #e1e1e1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+    text-transform: capitalize;
+  }
+
+}
+
+.financial__btnns{
+  display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+
+    .btn__1{
+      border-radius: 6px;
+      border: 1px solid #fff2cb;
+      background: #fff2cb;
+      padding: 16px 40px;
+  }
+
+  .btn__2{
+    border-radius: 6px;
+    border: 1px solid #ff671b;
+    background: #ff671b;
+    padding: 16px 40px;
+    color: #fff;
+  }
+    }
+
+
